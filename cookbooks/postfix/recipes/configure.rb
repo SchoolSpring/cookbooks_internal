@@ -16,7 +16,7 @@ cookbook_file "/etc/opendkim.conf" do
 end
 
 directory "/etc/mail" do
-  owner "nobody"
+  owner "root"
   group "root"
   mode 00755
   recursive true
